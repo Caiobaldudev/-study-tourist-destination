@@ -39,8 +39,7 @@ A estilização do projeto foi feita com o foco em manter uma aparência limpa e
 - Flexbox: Utilizado para organização das seções e alinhamento dos elementos.
 - Responsive Design: As fontes e as imagens se adaptam ao tamanho da tela, garantindo uma boa experiência em dispositivos móveis e desktops.
 - Customização das Listas: Estilo personalizado para as listas dentro do conteúdo, com marcação (list-style) ajustada e espaçamento controlado.
-Responsividade
-- Utilizamos a propriedade clamp() para ajustar o tamanho das fontes de acordo com o tamanho da tela, garantindo legibilidade e uma apresentação equilibrada em diferentes dispositivos.
+- Responsividade: Utilizamos a propriedade clamp() para ajustar o tamanho das fontes de acordo com o tamanho da tela, garantindo legibilidade e uma apresentação equilibrada em diferentes dispositivos.
 
 ## 🛠️ Como Executar o Projeto
 
