@@ -1,21 +1,96 @@
-.content {
+main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 8rem;
 }
+
+main p {
+  text-align: center;
+}
+
 
 .initial_content img {
   width: 100%;
   margin-bottom: 2.4rem;
 }
 
-.initial_content h1{
+.initial_content h1 {
   margin-bottom: 4rem;
 }
-
 .initial_content h3 {
+  margin-bottom: 0.8rem;
 }
 
 .initial_content p {
   text-align: center;
+  color: var(--text-secondary);
+}
+
+.second_content {
+  margin-top: 2.4rem;
+}
+
+.second_content h3 {
+  margin-bottom: 0.2rem;
+}
+
+.second_content h1 {
+  margin-bottom: 0.8rem;
+}
+
+.second_content p {
+  text-align: left;
+}
+
+.list {
+  margin-top: 6.4rem;
+  overflow: hidden;
+}
+
+.list > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4.6rem;
+}
+
+.list ul h1 {
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+
+.list ul img {
+  object-fit: cover;
+  width: 100%;
+  height: 35rem;
+}
+
+.second_ul {
+  margin-top: 3.5rem;
+}
+
+.second_ul li {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--acent-blue);
+  list-style: disc;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+.second_ul li::marker {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.second_ul h2 {
+  margin-bottom: 0;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  opacity: 0.1;
+  margin: 4rem 0;
 }
