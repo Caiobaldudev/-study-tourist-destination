@@ -47,7 +47,7 @@ Para visualizar o projeto em seu ambiente local, basta abrir o arquivo index.htm
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/tourist-destination.git
+   git clone https://github.com/Caiobaldudev/-study-tourist-destination.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
